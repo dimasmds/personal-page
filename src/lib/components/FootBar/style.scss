@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+.foot-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  .foot-bar__social-link {
+    ul {
+
+      li {
+        display: inline-block;
+
+        a {
+
+          img {
+            width: 35px;
+            height: 35px;
+            margin: 8px;
+          }
+        }
+      }
+    }
+  }
+}
