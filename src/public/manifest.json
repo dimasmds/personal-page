@@ -1,7 +1,7 @@
 {
-  "name": "FrontEnd Web Starter Pack",
-  "short_name": "Starter Pack",
-  "description": "My tools stack for built a modern web apps",
+  "name": "Dimas Maulana Dwi Saputra Personal Page",
+  "short_name": "dmds.dev",
+  "description": "Dimas Maulana Dwi Saputra Personal Page",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
