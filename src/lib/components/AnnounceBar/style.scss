@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.announce-bar {
+  position: relative;
+  display: none;
+  padding: 8px;
+
+  p {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+  }
+
+  button {
+    top: 25%;
+    right: 32px;
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.show {
+  display: block;
+}
