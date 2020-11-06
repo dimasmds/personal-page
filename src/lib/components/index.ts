@@ -1,3 +1,2 @@
-import './HeadBar';
-import './FootBar';
-import './AnnounceBar';
+import './Generic';
+import './App';

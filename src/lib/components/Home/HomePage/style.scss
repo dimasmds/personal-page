@@ -1,0 +1,57 @@
+:host {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  width: 90%;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 32px;
+
+    #nameSpeak {
+      cursor: pointer;
+    }
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 600px) {
+    h2 {
+      font-size: 82px;
+    }
+
+    h3 {
+      font-size: 60px;
+    }
+  }
+}
+
+.green {
+  color: #2ecc71;
+}
+
+.blue {
+  color: #3498db;
+}
+
+.yellow {
+  color: #f1c40f;
+}
+
+.red {
+  color: #e74c3c;
+}
