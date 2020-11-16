@@ -33,6 +33,7 @@ module.exports = merge(common, {
     new GenerateSW({
       clientsClaim: true,
       skipWaiting: true,
+      exclude: [/\.map$/, /_redirects/],
       runtimeCaching: [
         // runtime caching
       ],
